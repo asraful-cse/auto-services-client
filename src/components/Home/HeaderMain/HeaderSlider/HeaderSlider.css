@@ -1,0 +1,15 @@
+.banner_blur {
+	margin-bottom: 110px;
+}
+.banner_blur h1 {
+	color: rgba(116, 6, 54, 0.878);
+	font-size: 60px;
+}
+.banner_blur h6,
+p {
+	font-size: 25px;
+	color: rgba(73, 106, 36, 0.952);
+}
+.opacity {
+	opacity: 0.8;
+}

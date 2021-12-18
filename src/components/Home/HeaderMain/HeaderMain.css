@@ -1,0 +1,18 @@
+/* .banner_blur { */
+/* margin-bottom: 100px;
+	background-color: #35bdbd6b; */
+/* border-radius: 10px;
+	box-shadow: 0px 1px 2px 0px; */
+/* } */
+.banner_blur h1 {
+	color: rgba(31, 18, 67, 0.76);
+	font-size: 60px;
+}
+.banner_blur h6,
+p {
+	font-size: 25px;
+	color: rgba(146, 9, 85, 0.952);
+}
+.opacity {
+	opacity: 0.8;
+}

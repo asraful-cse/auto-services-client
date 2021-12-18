@@ -1,0 +1,17 @@
+form-input {
+	background: black !important;
+	color: white !important;
+	border: none !important;
+}
+.form-input:focus {
+	border: 1px solid red !important;
+	border-color: red !important;
+	box-shadow: none !important;
+}
+/* .form-input:hover {
+     border: 1px solid red;
+  } */
+.form-btn {
+	display: block;
+	width: 100%;
+}
