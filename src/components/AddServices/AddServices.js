@@ -33,7 +33,7 @@ const AddServices = () => {
 			data-aos-duration="1500"
 		>
 			<h2 className="mt-0 my-3 p-3 text-center text-danger">
-				PLEASE ADD WATCH ITEMS
+				PLEASE ADD CAR SERVICES
 			</h2>
 			<div className="login-box w-75 m-auto mt-6">
 				<div className="event-box  d-flex justify-content-center align-items-center">
