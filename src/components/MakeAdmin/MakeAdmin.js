@@ -23,13 +23,23 @@ const MakeAdmin = () => {
 	};
 	return (
 		<div className="container border border bg-light">
-			<h2 className="mt-0 my-3 p-3 text-center text-danger">
+			<h2
+				className="mt-0 my-3 p-3 text-center text-danger"
+				data-aos="fade-down"
+				data-aos-easing="linear"
+				data-aos-duration="1500"
+			>
 				- Make Admin Form - <br /> Please Added Person Information ?
 			</h2>
 			<br />
 			<div className="login-box w-75 m-auto mt-6">
 				<div className="event-box  d-flex justify-content-center align-items-center">
-					<div className="login-form">
+					<div
+						className="login-form"
+						data-aos="fade-down"
+						data-aos-easing="linear"
+						data-aos-duration="1500"
+					>
 						<form onSubmit={handleSubmit(onSubmit)}>
 							<input
 								className="input-field"

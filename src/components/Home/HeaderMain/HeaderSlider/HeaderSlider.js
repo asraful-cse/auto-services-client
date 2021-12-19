@@ -11,6 +11,7 @@ const HeaderSlider = () => {
 			id="carouselExampleCaptions"
 			className="carousel slide"
 			data-bs-ride="carousel"
+			data-aos="zoom-in-down"
 		>
 			<div className="carousel-indicators">
 				<button
@@ -35,20 +36,17 @@ const HeaderSlider = () => {
 				></button>
 			</div>
 			<div className="carousel-inner">
-				<div className="carousel-item active">
+				<div className="carousel-item active" data-aos="zoom-in-down">
 					<img
 						src={clinicBanner1}
-						className="d-block w-100 opacity"
+						className="d-block w-100 slider-1 opacity"
 						alt="..."
 					/>
-					<div className="carousel-caption d-none d-md-block banner_blur">
-						<h1 style={{ color: "rgb(78 29 54 / 95%)" }} className="fw-bold">
-							EXCLUSIVE
-							<br /> COLLECTIONS
-						</h1>
-						<br />
-
-						<button className="btn btn bg-danger">
+					<div
+						className="carousel-caption d-none d-md-block banner_blur"
+						data-aos="zoom-in-down"
+					>
+						<button className="btn btn bg-dark">
 							<Link
 								style={{ color: "white", textDecoration: "none" }}
 								to="/explore"
@@ -65,13 +63,11 @@ const HeaderSlider = () => {
 						className="d-block w-100 opacity"
 						alt="..."
 					/>
-					<div className="carousel-caption d-none d-md-block  banner_blur">
-						<h1 className="fw-bold">
-							NEW <br /> ARRIVALS
-						</h1>
-						<br />
-
-						<button className="btn btn bg-danger">
+					<div
+						className="carousel-caption d-none d-md-block  banner_blur"
+						data-aos="zoom-in-down"
+					>
+						<button className="btn btn bg-dark">
 							<Link
 								style={{ color: "white", textDecoration: "none" }}
 								to="/login"
@@ -89,13 +85,7 @@ const HeaderSlider = () => {
 						alt="..."
 					/>
 					<div className="carousel-caption d-none d-md-block banner_blur ">
-						<h1 style={{ color: "yellow" }} className="fw-bold">
-							SPRING
-							<br /> COLLECTIONS
-						</h1>
-						<br />
-
-						<button className="btn btn bg-danger">
+						<button className="btn btn bg-dark">
 							<Link
 								style={{ color: "white", textDecoration: "none" }}
 								to="/explore"

@@ -13,10 +13,10 @@ const Navbar = () => {
 						<img
 							src={watch_logo}
 							style={{
-								height: "40px",
-								width: "200px",
+								height: "70px",
+								width: "70px",
 								marginTop: "0px",
-								borderRadius: "100px",
+								borderRadius: "00px",
 								marginLeft: "130px",
 							}}
 							alt=""

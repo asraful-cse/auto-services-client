@@ -15,20 +15,19 @@ const ExploreServices = () => {
 			<section id="book-ride" className="mt-5 container">
 				<h2 className="text-center fw-bolder">
 					{" "}
-					The best Exclusive{" "}
-					<span style={{ color: "#ff4d30" }}> watch brands of 2021</span>
+					Car
+					<span style={{ color: "#ff4d30" }}> Service</span>
 				</h2>
 				<p
 					style={{ fontSize: "18px", color: "gray", textAlign: "justify" }}
 					className="text-center"
 				>
-					Today, life moves faster than ever. Keeping track of time is essential
-					in our fast-paced world—so why not do it in style, with one of the
-					world’s best DIG watches on your wrist? Luxury watches are destined
-					never to go out of fashion. Even though we now have clocks on our
-					phones, nothing beats the exceptional elegance of a beautifully
-					crafted timepiece. Suddenly, checking the time becomes a rather
-					exciting endeavour.
+					We have invested in all the latest specialist tools and diagnostic
+					software that is specifically tailored for the software in your
+					vehicle. If you want the quality you would expect from the dealership,
+					but with a more personal and friendly atmosphere, you have found
+					it.Our auto repair shop is capable of servicing a variety of models.
+					We only do the work that is needed to fix your problem. READ MORE
 				</p>
 				<br /> <br />
 				{services.length === 0 ? (
@@ -38,30 +37,35 @@ const ExploreServices = () => {
 						</div>
 					</div>
 				) : (
-					<div className="row ">
-						{services?.map((pd, index) => (
-							<div className="mb-5 col-lg-4 col-sm-6  " key={pd._id}>
-								<div className="card shadow-lg w-100 h-100 text-center rounded serviceCard card_border">
-									<div className="d-flex justify-content-center align-items-center h-75 p-2">
-										<img
-											src={pd?.image}
-											className="card-img-top card_border"
-											alt=""
-											style={{ height: "86%", width: "75%" }}
-										/>
-									</div>
-									<div className="card-body name">
-										{/* <small>{pd?.title}</small> */}
+					<div className="row">
+						{services?.slice(0, 6)?.map((pd, index) => (
+							<div class="row g-0 mb-5 col-lg-6 col-sm-6 " key={pd?._id}>
+								<div
+									class="col-md-4  text-center rounded serviceCard card_border"
+									data-aos="flip-left"
+									data-aos-easing="ease-out-cubic"
+									data-aos-duration="1000"
+								>
+									<img
+										src={pd?.image}
+										className="card-img-top card_border"
+										alt=""
+										style={{ height: "70%", width: "100%" }}
+									/>
+								</div>
+								<div
+									class="col-md-8"
+									data-aos="fade-up"
+									data-aos-easing="ease-out-cubic"
+									data-aos-duration="1000"
+								>
+									<div class="card-body name">
 										<h6 className="card-title">{pd?.name}</h6>
 										<strong>{pd?.description}</strong>
-									</div>
-
-									<div className="card-footer">
-										<div className="d-flex align-items-center justify-content-between ">
-											<h5 className="text-warning fw-bold"> $ {pd?.price}</h5>
+										<div className=" ">
+											<h5 className="text-dark fw-bold"> $ {pd?.price}</h5>
 											<Link to={`/services/${pd?._id}`}>
-												{" "}
-												<button className="btn btn-success">Order Now</button>
+												<button className="btn btn-dark">Book Now</button>
 											</Link>
 										</div>
 									</div>

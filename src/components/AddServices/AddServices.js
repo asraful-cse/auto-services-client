@@ -26,7 +26,12 @@ const AddServices = () => {
 			});
 	};
 	return (
-		<div className="container border border bg-light">
+		<div
+			className="container border border bg-light"
+			data-aos="flip-left"
+			data-aos-easing="ease-out-cubic"
+			data-aos-duration="1500"
+		>
 			<h2 className="mt-0 my-3 p-3 text-center text-danger">
 				PLEASE ADD WATCH ITEMS
 			</h2>

@@ -25,7 +25,12 @@ const HomeReview = () => {
 	}, []);
 
 	return (
-		<div className="container">
+		<div
+			className="container"
+			data-aos="flip-left"
+			data-aos-easing="ease-out-cubic"
+			data-aos-duration="1500"
+		>
 			<h1 style={{ textAlign: "center", color: "gray" }}>
 				Customers Comments and Reviews
 			</h1>
@@ -37,6 +42,9 @@ const HomeReview = () => {
 				<div
 					key={review._id}
 					className="row row-cols-1 row-cols-md-3 g-5   d-flex align-item-center justify-content-center"
+					data-aos="flip-left"
+					data-aos-easing="ease-out-cubic"
+					data-aos-duration="1500"
 				>
 					<div className="col" style={{ padding: "10px" }}>
 						<div className="card h-100">

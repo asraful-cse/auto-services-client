@@ -14,27 +14,17 @@ const Services = () => {
 			<div>
 				<h2 className="text-center fw-bolder">
 					{" "}
-					OUR EXCLUSIVE WATCH{" "}
-					<span style={{ color: "#ff4d30" }}>OFFERS AND SERVICES</span>
+					OUR-
+					<span style={{ color: "#ff4d30" }}>CAR SERVICES</span>
 				</h2>
+				<br />
 				<p
 					style={{ fontSize: "18px", color: "gray", textAlign: "justify" }}
 					className="text-center"
 				>
-					"EXCLUSIVE" Watch was born thanks to a groundbreaking entrepreneurial
-					vision shared by Boston’s E. Howard Watch and Clock Company manager,
-					Florentine Ariosto Jones. The 27-year-old pioneer, <br />
-					who was also a watchmaker and engineer, aspired to meld exquisite
-					Swiss watchmaking precision, with America’s cutting edge technology.
-					The result was something rather revolutionary. <br />
-					IWC watches landed a place at the forefront of innovative watchmaking.
-					Not only that, but they remained there. Florentine’s collaboration{" "}
+					We provide top notch maintenance service for all types of vehicles.{" "}
 					<br />
-					with Heinrich Moser, an industrialist from Schaffhausen, brought some
-					of the oldest and most respected clock <br />
-					making traditions in line with the entrepreneur’s vision, and as a
-					result, IWC <br />
-					watches became a trusted wristwatch for generations to come.
+					We are certified to service and repair the following makes:
 				</p>
 			</div>
 			<br /> <br />

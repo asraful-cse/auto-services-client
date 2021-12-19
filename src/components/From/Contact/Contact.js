@@ -87,10 +87,7 @@ const Contact = () => {
 								</div>
 							</Fade>
 							<Fade right cascade duration={2500}>
-								<button
-									type="submit"
-									className="btn btn-outline-danger form-btn"
-								>
+								<button type="submit" className="btn btn-outline-dark form-btn">
 									Submit
 								</button>
 							</Fade>

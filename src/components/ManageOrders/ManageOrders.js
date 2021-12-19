@@ -49,7 +49,12 @@ const ManageOrders = () => {
 	};
 
 	return (
-		<div className="container">
+		<div
+			className="container"
+			data-aos="flip-left"
+			data-aos-easing="ease-out-cubic"
+			data-aos-duration="1500"
+		>
 			<h2>Total Orders: {orders.length}</h2>
 			<TableContainer component={Paper}>
 				<Table sx={{}} aria-label="simple table">

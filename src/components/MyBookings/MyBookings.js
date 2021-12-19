@@ -38,7 +38,12 @@ const MyBookings = () => {
 	};
 	// ----------------------------------------------------------
 	return (
-		<div className="container">
+		<div
+			className="container"
+			data-aos="flip-up"
+			data-aos-easing="ease-out-cubic"
+			data-aos-duration="1500"
+		>
 			<h2>My Total Orders: {bookings.length}</h2>
 			<TableContainer component={Paper}>
 				<Table sx={{}} aria-label="simple table">
@@ -79,6 +84,7 @@ const MyBookings = () => {
 								<TableCell
 									style={{ fontSize: "15px", color: "red" }}
 									align="right"
+									data-aos="zoom-in-down"
 								>
 									<button
 										style={{ color: "red" }}

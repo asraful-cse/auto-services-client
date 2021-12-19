@@ -27,7 +27,12 @@ const ManageServices = () => {
 		}
 	};
 	return (
-		<div className="container">
+		<div
+			className="container"
+			data-aos="flip-left"
+			data-aos-easing="ease-out-cubic"
+			data-aos-duration="1500"
+		>
 			<div>
 				<h1 className="text-align-center d-flex justify-content-center text-danger">
 					Manage Services
@@ -47,7 +52,12 @@ const ManageServices = () => {
 					</div>
 				</div>
 			) : (
-				<div className="row ">
+				<div
+					className="row "
+					data-aos="flip-up"
+					data-aos-easing="ease-out-cubic"
+					data-aos-duration="1500"
+				>
 					{services?.map((pd, index) => (
 						<div className="mb-5 col-lg-4 col-sm-6  ">
 							<div className="card shadow-lg w-100 h-100 text-center rounded serviceCard card_border">
@@ -64,7 +74,10 @@ const ManageServices = () => {
 								</div>
 
 								<div className="card-footer">
-									<div className="d-flex align-items-center justify-content-center ">
+									<div
+										className="d-flex align-items-center justify-content-center "
+										data-aos="zoom-in-down"
+									>
 										<button
 											className="btn btn-danger w-100"
 											onClick={() => handleDeleteUser(pd?._id)}

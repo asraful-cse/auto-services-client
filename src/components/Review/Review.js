@@ -25,7 +25,12 @@ const Review = () => {
 			});
 	};
 	return (
-		<div className="container border border bg-light">
+		<div
+			className="container border border bg-light"
+			data-aos="flip-left"
+			data-aos-easing="ease-out-cubic"
+			data-aos-duration="1500"
+		>
 			<h1 className="mt-0 my-3 p-3 text-center text-danger">Review</h1>
 			<div className="login-box w-75 m-auto mt-6">
 				<div className="event-box  d-flex justify-content-center align-items-center">

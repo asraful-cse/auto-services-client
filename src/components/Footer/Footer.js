@@ -11,7 +11,7 @@ import {
 	faPhoneVolume,
 	faMapMarkedAlt,
 } from "@fortawesome/free-solid-svg-icons";
-
+import watch_logo from "../../images/watch_logo.png";
 const Footer = () => {
 	return (
 		<div>
@@ -19,8 +19,24 @@ const Footer = () => {
 				<div className="container">
 					<div className="row">
 						<div className="col-md-5">
-							<div className="left-container text-start">
-								<h1>EXCLUSIVE WATCH</h1>
+							<div
+								className="left-container text-start"
+								data-aos="fade-down"
+								data-aos-easing="linear"
+								data-aos-duration="1500"
+							>
+								<img
+									className="left-container text-start"
+									src={watch_logo}
+									style={{
+										height: "100px",
+										width: "100px",
+										marginBottom: "5px",
+										borderRadius: "20px",
+										// marginLeft: "130px",
+									}}
+									alt=""
+								/>
 								<div className="icons-container d-flex text-center ">
 									<div className="icon">
 										<FontAwesomeIcon icon={faInstagramSquare} />
@@ -35,13 +51,15 @@ const Footer = () => {
 										<FontAwesomeIcon icon={faFacebookSquare} />
 									</div>
 								</div>
-								<h6 className="mt-4 text-light ">
-									Today, life moves faster than ever. Keeping track of time is
-									essential in our fast-paced world—so why not do it in style
-								</h6>
+								<h6 className="mt-4 text-dark "></h6>
 							</div>
 						</div>
-						<div className="col-md-2">
+						<div
+							className="col-md-2"
+							data-aos="fade-down"
+							data-aos-easing="linear"
+							data-aos-duration="1500"
+						>
 							<div className="footer-menu-container">
 								<ul>
 									<li className="footer-menu">Home</li>
@@ -51,9 +69,14 @@ const Footer = () => {
 								</ul>
 							</div>
 						</div>
-						<div className="col-md-5">
+						<div
+							className="col-md-5"
+							data-aos="fade-down"
+							data-aos-easing="linear"
+							data-aos-duration="1500"
+						>
 							<div className="right-footer-container">
-								<h3 className="text-light">SIGN UP AND CONTACT NOW !</h3>
+								<h3 className="text-dark">SIGN UP AND CONTACT NOW !</h3>
 								<input
 									className="footer-input text-dark w-100"
 									type="text"
@@ -64,7 +87,7 @@ const Footer = () => {
 										<FontAwesomeIcon icon={faPhoneVolume} />
 									</div>
 									<div>
-										<strong className="text-light">+880 1 921 615 651 </strong>
+										<strong className="text-dark">+880 1 921 615 651 </strong>
 									</div>
 								</div>
 								<div className="map d-flex align-items-center justify-content-center">
@@ -72,7 +95,7 @@ const Footer = () => {
 										<FontAwesomeIcon icon={faMapMarkedAlt} />
 									</div>
 									<div>
-										<h6 className="text-light">
+										<h6 className="text-dark">
 											- 12/12 Dhanmondi, Dhaka-1215, Bangladesh.
 										</h6>
 									</div>
@@ -81,7 +104,7 @@ const Footer = () => {
 						</div>
 					</div>
 
-					<div className="mt-2 text-light text-center">
+					<div className="mt-2 text-dark text-center">
 						<small>
 							<small>Watch © . All rights reserved asraful-2021</small>
 						</small>

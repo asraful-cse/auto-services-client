@@ -41,7 +41,14 @@ const Login = () => {
 		<>
 			<Container>
 				<Grid container spacing={2}>
-					<Grid item xs={12} md={6}>
+					<Grid
+						item
+						xs={12}
+						md={6}
+						data-aos="fade-down"
+						data-aos-easing="linear"
+						data-aos-duration="1500"
+					>
 						<Typography
 							sx={{ mt: 8, color: "#ad2121" }}
 							variant="h4"
@@ -104,7 +111,11 @@ const Login = () => {
 						)}
 						{isLoading && <LinearProgress color="secondary" />}
 						<p>--------------------------</p>
-						<Button onClick={handleGoogleSignIN} variant="contained">
+						<Button
+							onClick={handleGoogleSignIN}
+							variant="contained"
+							data-aos="zoom-in-down"
+						>
 							<img
 								style={{ width: "100%", height: "30px", borderRadius: "4px" }}
 								src={googleImg}
@@ -113,7 +124,14 @@ const Login = () => {
 						</Button>
 					</Grid>
 
-					<Grid item xs={12} md={6}>
+					<Grid
+						item
+						xs={12}
+						md={6}
+						data-aos="flip-up"
+						data-aos-easing="ease-out-cubic"
+						data-aos-duration="1500"
+					>
 						<img style={{ width: "100%" }} src={login} alt="" />
 					</Grid>
 				</Grid>

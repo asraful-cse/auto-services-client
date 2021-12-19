@@ -3,14 +3,14 @@
 	padding: 5px;
 	background-color: rgb(46, 46, 46);
 	border-radius: 50%;
-	color: rgb(155, 155, 155);
+	color: rgb(230, 230, 196);
 	font-size: 25px;
 	align-items: center;
 	justify-content: center;
 	display: flex;
 }
 .icon:hover {
-	background-color: rgb(250, 25, 25);
+	background-color: rgb(25, 250, 25);
 }
 .footer-menu {
 	list-style: none;
@@ -19,20 +19,20 @@
 	cursor: pointer;
 }
 .footer-menu:hover {
-	color: red;
+	color: rgb(25, 250, 25);
 }
 .footer-input {
 	padding: 8px;
 	border: none;
 	outline: none;
-	background-color: rgb(182, 174, 174);
+	background-color: rgba(16, 28, 17, 0.748);
 }
 .footer-container {
-	background-color: #2e2e2e;
+	background-color: #e6f9f2;
 	padding: 20px;
-	color: rgba(218, 242, 209, 0.755);
+	color: rgba(0, 0, 0, 0.755);
 }
 .footer-phone-icon {
 	font-size: 22px;
-	color: red;
+	color: rgb(12, 167, 30);
 }

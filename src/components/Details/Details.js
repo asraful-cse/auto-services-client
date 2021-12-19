@@ -75,16 +75,25 @@ const Details = () => {
 							marginTop: "9px",
 							backgroundColor: "#f0f0f0",
 						}}
+						data-aos="flip-left"
+						data-aos-easing="ease-out-cubic"
+						data-aos-duration="1000"
 					>
 						<img className="w-50" src={service.image} alt="" />
 						<br />
+						<br />
 						<h3 style={{ color: "gray" }}>{service?.name}</h3>
-						<p style={{ color: "gray" }}>{service?.description}</p>
+						<small style={{ color: "gray" }}>{service?.description}</small>
 						<h4 style={{ color: "#414196" }}>$ {service?.price}</h4>
 					</div>
 					<br />
 					<br />
-					<div className="col-md-6">
+					<div
+						className="col-md-6"
+						data-aos="flip-left"
+						data-aos-easing="ease-out-cubic"
+						data-aos-duration="1500"
+					>
 						<strong
 							style={{
 								textAlign: "center",
@@ -138,12 +147,7 @@ const Details = () => {
 								type="text"
 								className="p-2 m-2 w-100 input-field"
 							/>
-							<input
-								{...register("coupon")}
-								placeholder="Coupon Code"
-								type="number"
-								className="p-2 m-2 w-100 input-field"
-							/>
+
 							<input
 								{...register("phone")}
 								placeholder="Your Phone Number"
@@ -151,11 +155,6 @@ const Details = () => {
 								className="p-2 m-2 w-100 input-field"
 							/>
 
-							<select {...register("model")} className="p-2 m-2 w-100">
-								<option value="premium">Premium</option>
-								<option value="classic">Classic</option>
-								<option value="business">Business</option>
-							</select>
 							<br />
 							<br />
 
@@ -163,8 +162,8 @@ const Details = () => {
 
 							<input
 								type="submit"
-								value="Purchase Now"
-								className="btn btn-danger w-100"
+								value="Booking Confirm"
+								className="btn btn-dark w-100"
 							/>
 						</form>
 						<br />
